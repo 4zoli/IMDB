@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="24" y="8" width="1280" height="720" text="ADMIN KEZELOI FELULETE FILM FELVITELHEZ&#xA;http://rf1csut09.inf.u-szeged.hu    " measuredWidth="1280" measuredHeight="720">
+    <font/>
+    <note>Bongeszo</note>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="304" y="70" width="720" height="658" measuredWidth="720" measuredHeight="658">
+    <note>Main div</note>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="304" y="60" width="720" height="59" measuredWidth="720" measuredHeight="59" background="#000" alpha="110">
+    <note>black menu backgroun</note>
+  </widgets>
+  <widgets xsi:type="model:Image" id="4" x="304" y="64" width="173" height="52" text="IMDb logo" measuredWidth="173" measuredHeight="52"/>
+  <widgets xsi:type="model:List" id="5" x="314" y="136" width="455" text="Kezeloi Oldal" measuredWidth="455" measuredHeight="25">
+    <font/>
+    <items x="0" y="2" width="455" height="21" text="Kezeloi Oldal"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="6" x="487" y="70" width="405" text="Searchbar" measuredWidth="405" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="7" x="776" y="136" width="238" height="582" measuredWidth="238" measuredHeight="582"/>
+  <widgets xsi:type="model:Panel" id="8" x="789" y="146" width="212" height="113" measuredWidth="212" measuredHeight="113"/>
+  <widgets xsi:type="model:ButtonBar" id="9" x="810" y="156" width="169" height="23" text="Bejelentkezve mint: " measuredWidth="169" measuredHeight="23" selection="0">
+    <font/>
+    <items x="0" y="0" width="168" height="23" text="Bejelentkezve mint: "/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="10" x="810" y="183" width="169" height="22" text="Kijelentkezes" measuredWidth="169" measuredHeight="22" selection="0">
+    <font/>
+    <items x="0" y="0" width="168" height="22" text="Kijelentkezes"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="12" x="792" y="272" width="212" height="257" measuredWidth="212" measuredHeight="257"/>
+  <widgets xsi:type="model:SVGImage" id="13" x="1023" y="60" width="281" height="668" text="hatter, egy szin minimal" measuredWidth="281" measuredHeight="668"/>
+  <widgets xsi:type="model:SVGImage" id="14" x="24" y="60" width="281" height="668" text="hatter, egy szin minimal" measuredWidth="281" measuredHeight="668"/>
+  <widgets xsi:type="model:Checkbox" id="15" x="488" y="93" text="akcio" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="16" x="544" y="93" text="scifi" measuredWidth="42" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="17" x="602" y="93" text="vigjatek" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="18" x="668" y="93" text="western" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="19" x="740" y="93" text="fantasy" measuredWidth="59" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="20" x="817" y="93" text="gyerek" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="34" x="792" y="272" width="209" text="Kedvencek" measuredWidth="209" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="208" height="27" text="Kedvencek"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="35" x="792" y="538" width="212" height="180" measuredWidth="212" measuredHeight="180"/>
+  <widgets xsi:type="model:ButtonBar" id="36" x="793" y="538" width="209" text="Utoljára megtekintett" measuredWidth="209" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="208" height="27" text="Utoljára megtekintett"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="37" x="802" y="311" width="189" height="34" text="#1 : Venom" measuredWidth="189" measuredHeight="34" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="34" text="#1 : Venom"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="38" x="803" y="351" width="189" height="34" text="#1 : Venom" measuredWidth="189" measuredHeight="34" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="34" text="#1 : Venom"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="39" x="803" y="391" width="189" height="34" text="#1 : Venom" measuredWidth="189" measuredHeight="34" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="34" text="#1 : Venom"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="40" x="803" y="432" width="189" height="34" text="#1 : Venom" measuredWidth="189" measuredHeight="34" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="34" text="#1 : Venom"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="41" x="803" y="480" width="189" height="34" text="#1 : Venom" measuredWidth="189" measuredHeight="34" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="34" text="#1 : Venom"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="42" x="803" y="572" width="189" height="21" text="legutoljara" measuredWidth="189" measuredHeight="21" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="21" text="legutoljara"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="43" x="803" y="605" width="189" height="21" measuredWidth="189" measuredHeight="21" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="21"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="44" x="803" y="637" width="189" height="21" measuredWidth="189" measuredHeight="21" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="21"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="45" x="803" y="672" width="189" height="21" text="legregebben" measuredWidth="189" measuredHeight="21" selection="0">
+    <font/>
+    <items x="0" y="0" width="188" height="21" text="legregebben"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="49" x="902" y="76" text="Kezelői oldal" measuredWidth="89" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="88" height="27" text="Kezelői oldal"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="50" x="633" y="176" height="329" text="Akcio&#xA;Kaland&#xA;Vigjatek&#xA;|Multiple&#xA;Selection&#xA;(bg:green)|Works like this&#xA;For List, Table and Tree" measuredWidth="131" measuredHeight="329">
+    <font/>
+    <items x="0" y="2" width="131" height="21" text="Akcio"/>
+    <items x="0" y="23" width="131" height="21" text="Kaland"/>
+    <items x="0" y="44" width="131" height="21" text="Vigjatek"/>
+    <items x="0" y="65" width="131" height="21" text="|Multiple"/>
+    <items x="0" y="86" width="131" height="21" text="Selection"/>
+    <items x="0" y="107" width="131" height="21" text="(bg:green)|Works like this"/>
+    <items x="0" y="128" width="131" height="21" text="For List, Table and Tree"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="51" x="314" y="173" width="311" height="366" measuredWidth="311" measuredHeight="366"/>
+  <widgets xsi:type="model:TextArea" id="52" x="324" y="182" width="291" height="347" text="film adatait itt lehet majd megadni" measuredWidth="291" measuredHeight="347">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="54" x="633" y="513" text="film felvitele az oldalra" measuredWidth="139" measuredHeight="29" selection="0">
+    <font/>
+    <items x="0" y="0" width="139" height="28" text="film felvitele az oldalra"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,179 @@
+a:visited {
+    color: #d0d0d0;
+    text-decoration : none ;
+    font-size: 1.5vh;
+}
+a:link{
+    color: white;
+    text-decoration : none ;
+    font-size: 1.5vh;
+}
+
+/* Törzs tetejen levo cim div */
+.index_title {
+	background-color: #00264d;
+    width: 68%;
+    margin-left: 1vw;
+    height: 3vh;
+    border-top-width: 1vh;
+    text-align : center ;
+    border-radius: 25px 25px 25px 25px;
+}
+.index_title2{
+	background-color: #00264d;
+    width: 60%;
+	color:white;
+
+    height: 3vh;
+    border-top-width: 1vh;
+    text-align : center ;
+    border-radius: 25px 25px 25px 25px;
+}
+
+/* Az oldal torzse a menubar nelkul */
+.index_body  {
+    margin-top: 13vh;
+    position: relative;
+    padding-bottom: 0.5vh;
+}
+
+/* Az utolso 5 film a fooldalon divjei egyben*/
+.top_five   {
+    
+    color: black;
+    background:#222222;
+    width:68%;
+    height: 35vh;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    position: relative;
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 5px 5px 15px #00264d inset, 5px 5px 5px black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+    /*A top five cím divje, ebben van meg kulon cim es csillagoknak div */
+    .top_five_bar   {
+        background-color:#00264d;
+        color: black;
+        width: 100%;
+        height: 8%;
+        margin: 0 auto;
+        position: relative;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+            /*Top five cimenek a divje */
+            .top_five_title{
+                background-color: #00264d;
+                color: white;
+                position:absolute;
+                left: 0;
+                height: 100%;
+                width: 50%;
+                font-size:2.5vh;
+                padding-left: 1vw;
+                border-radius: 15px 15px 15px 15px;
+            }
+
+            /* Top five ertekeles divje */
+            .top_five_stars {
+                color: gold;
+                position:absolute;
+                right: -0.5vw;
+                height: 100%;
+                width: 20%;
+                font-size:150%;
+            }
+
+            .adding_buttons {
+                border-radius: 25px 25px 0px 0px;
+                background: #00264d;
+                color: white;
+                position: absolute;
+                left: 11.7vw;
+                top: 32.5vh;
+                width: 14.5vw;
+                height: 2vh;
+                z-index: 1;
+                padding-top:0.5vh;
+                overflow: hidden;
+            }
+
+                /* Kedvencek gomb formázása */
+                .favbutton{
+                    background:none;
+                    color:rgb(255,189,74);
+                    border:none;
+                    cursor: pointer;
+                    padding-left: 25%;
+                    margin: 0;
+                    position: absolute;
+                    margin-left: 2vh;
+                    font-size: 1.5vh;
+                }
+
+
+                .to_film_page   {
+                    position: absolute;
+                    margin-left: 4.5vw;
+                    width: 10vw;
+                    left: 2.5vw;
+                    font-size: 1.5vh;
+                }
+
+    /* Top five bal oldali poster helyenek divje */
+    .top_five_poster {
+        margin-top: 5vh;
+        margin-left: 1vw;
+        color: white;
+        background-color:#bfbfbf;
+        height: 14vw;
+        width: auto;
+        position: absolute;
+    }
+
+
+    /* Top five jobb oldali divje, amiven a leiras van es a mufaj divje */
+    .top_five_shortstory {
+        background-color: #222222;
+        color: white;
+        position: absolute;
+        right: 1vw;
+        margin-top: 5vh;
+        height: 14.3vw;
+        width: 28vw;
+        font-size: 1vw;
+		overflow: auto;
+		
+    }
+
+    /* Mufaj jobb also divje */
+    .top_five_filmtype  {
+        position: absolute;
+        right: 0vh;
+        bottom: 0vh;
+        background-color: #00264d;
+        color: white;
+        width: 6vw;
+        height: 3vh;
+        border-radius: 25px 0px 15px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+		
+    }
+
+.to_fav {
+    position: absolute;
+    left: 0;
+}
+
+
+

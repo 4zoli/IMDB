@@ -1,0 +1,15 @@
+Host-info
+
+Cpanel Username: gatw_22922717
+Cpanel Password: c4QSyKBV
+Your URL: http://project-imdb.gat-worldhost.tk or http://www.project-imdb.gat-worldhost.tk
+FTP Server : ftpupload.net
+FTP Login : gatw_22922717
+FTP Password : c4QSyKBV
+MySQL Database Name: MUST CREATE IN CPANEL
+MySQL Username : gatw_22922717
+MySQL Password : c4QSyKBV
+MySQL Server: SEE THE CPANEL
+
+
+Cpanel URL: http://cpanel.gat-worldhost.tk/

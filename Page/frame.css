@@ -1,0 +1,300 @@
+﻿body    {
+	background-color:rgb(0, 0, 0);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    font-size: 1.5vh;
+}
+
+/* Az osszes tartalom main divje */
+main   {
+    margin: auto;
+    width: 60vw;
+    color: white;
+    background-color:rgb(255,189,74);
+    border-width: 0px;
+    border-radius: 0px 0px 100px 0px;
+    border-style: solid;
+}
+
+/* Menubar */
+.menu   {
+    background-color:rgb(255,189,74);
+    overflow: hidden;
+    position: fixed;
+    width: 60vw;
+    top: 0;
+    z-index: 2;
+}
+
+    /* Menu linkjei */
+    .menu a {
+    }
+    /* Egér ravitel */
+    .menu a:hover   {
+    }
+
+    /*Menuben a logo helye itt*/
+    .menu_logo {
+        color: black;
+        background-color: rgb(255,189,74);
+        float:left;
+        width: 12vh;
+        height: 12vh;
+        margin-left: 3%;
+        position: absolute;
+    }
+
+    /*Menu kereses divje*/
+    .menu_search    {
+        padding-right:500px;
+        margin-top:5vh;
+        color: black;
+        background-color: rgb(255,189,74);
+        display: inline-block;
+        height: 8vh;
+        width: 45vw;
+        justify-content: flex-end;
+        margin-left: 10vw;
+    }
+
+    .container {
+        position: relative;
+        padding-left: 3vh;
+        cursor: pointer;
+        font-size: 1.5vh;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 2vh;
+        width: 2vh;
+        background-color: #eee;
+        border-radius: 10px;
+    }
+    
+    .container:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+    
+    .container input:checked ~ .checkmark {
+        background-color: darkblue;
+    }
+    
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    
+    .container input:checked ~ .checkmark:after {
+        display: block;
+    }
+    
+    .container .checkmark:after {
+        left: 2px;
+        top: 2px;
+        width: 1vh;
+        height: 1vh;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+.gombok {
+    margin-top: 1vh;
+}
+
+
+/* Login logout jobb felso div */
+.login_logout   {
+	float:right;
+	top:2vh;
+    background-color: rgb(255,189,74);
+    position: fixed;
+    right: 20vw;
+    width: 16vw;
+    height: 14vh;
+    z-index: 2;
+}
+
+    /* Felhasznalo nev div */
+    .user_name  {
+        width:80%;
+        height: 20%;
+        position:absolute;
+        left: 1vw;
+    }
+
+    /* Pwd || Logut field*/
+    .user_pwd   {
+        width:80%;
+        height: 20%;
+        position:absolute;
+        top: 4vh;
+        left: 1vw;
+    }
+
+    .user_login_button  {
+        /*position:absolute;*/
+        display:inline-block;
+        margin-top: 8vh;
+        margin-left:2vh;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1.5vh;
+        width: 5.8vw;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .user_logout_button  {
+        /*position:absolute;*/
+        display:inline-block;
+        margin-top: 1vh;
+        margin-left:4vh;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1.5vh;
+        width: 8vw;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    /* Bejelentkezve a szöveg formázására*/
+    #logged{
+        margin-left: 3vh;
+        color: white;
+        font-size: 3vh;
+    }
+    /* kijelentkezés gomb formázására  */
+    #logout{
+        display:inline-block;
+        margin-left: 20vh;
+
+    }
+
+/* Jobb oldali utoljara megtekintett div */
+.last_seen {
+
+	float:right;
+	margin-right:0.5vw;
+    background-color:#222222;
+    color: black;
+    position: fixed;
+    right: 20vw;
+    bottom: 1.5vh;
+    width: 16vw;
+    height: 30vh;
+	margin-top:8vh;
+    top: 12vh;
+    z-index: 1;
+    box-shadow: 2px 2px 15px 2px black;
+	border-radius:0px 45px 0px 0px;
+
+}
+
+        /* Utoljara megtekintett divben a cim doboza */
+        .last_seen_title {
+            background-color: #00264d;
+            color: rgb(255,189,74);
+            height: 17%;
+            text-align :center ;
+            font-size: 2.5vh;
+            margin-top: -2.5vh;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: 2px 2px 2px 2px;
+        }
+        .last_seen p {
+            margin-top: 0;
+            font-size: 1.3vw;
+        }
+
+        #last_seen_link{
+            color: white;
+            text-decoration: underline;
+            font-size: 2vh;
+        }
+
+/* Jobb oldali kedvencek div */
+.favourites {
+	margin-top:58vh;
+    background-color:#222222;
+    position: fixed;
+	overflow-y:scroll; 
+    right: 20vw;
+    bottom: 34.5vh;
+    width: 16vw;
+    height: 35vh;
+	float:right;
+	margin-right:0.5vw;
+    top: -0.5vh;
+    box-shadow: 2px 2px 15px 2px black;
+}
+
+
+        table, td {
+            width: 100%;
+        }
+
+        /* Kedvencekben a cim doboza */
+        .favourites_title {
+            background-color: #00264d;
+            color: rgb(255,189,74);
+            height: 2vw;
+            width: 16vw;
+            text-align : center;
+            font-size: 2.5vh;
+            margin-top: -4.5vh;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: 2px 2px 2px 2px;
+            position:fixed;
+			
+        }
+        .favourites_title p {
+            margin-top: 0;
+            font-size: 3vh;
+        }
+
+        #favourit_link{
+			
+            color: white;
+            text-decoration: underline;
+            font-size: 1.8vh;
+        }
+
+        input[id='kedvenctorol'] {
+            background: url('deletefav.png');
+            border: 0;
+            display: block;
+            height: 1vw;
+            width: 1vw;
+            background-size: 1vw;
+        }
